@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "queryprocessor"
+version = "0.1.0"
+description = ""
+authors = ["Gabe Fierro <gtfierro@mines.edu>"]
+license = "bsd-3-clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+faker = "^19.11.0"
+pandas = "^2.1.1"
+bintrees = "^2.2.0"
+q = "^2.7"
+seaborn = "^0.13.0"
+black = "^23.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
